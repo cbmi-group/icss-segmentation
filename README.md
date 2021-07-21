@@ -14,9 +14,8 @@ This work focuses on the fluorescence microscopy images (FLMIs) segmentation usi
 <img src=".\images\ER.png" style="zoom:80%;" /><img src=".\images\MITO.png" style="zoom:80%;" /><img src=".\images\NUCLEUS.png" style="zoom: 80%;" />
 
 (2) Data augmentation: Horizontal and vertical flipping as well as 90°/180°/270° rotation were used to augment the training data.
-
 (3) For the ER dataset, the training and test sets consist of 1232 and 38 images, respectively. 
-(4) For the MITO dataset, the training and test sets consist of 1320 and 18 images, respectively.              
+(4) For the MITO dataset, the training and test sets consist of 1320 and 18 images, respectively. 
 (5) For the NUCLEUS dataset, we split the original annotated images into training and test sets, consisting of 6360 and 143 images, respectively.
 
 ### 3. How to use
