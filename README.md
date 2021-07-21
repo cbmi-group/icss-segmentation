@@ -11,7 +11,7 @@ This work focuses on the fluorescence microscopy images (FLMIs) segmentation usi
 
 (1) The customized datasets used in our work can be downloaded from [IEEE Dataport](https://ieee-dataport.org/documents/fluorescence-microscopy-image-datasets-deep-learning-segmentation-intracellular-orgenelle), including the FLMIs of endoplasmic reticulum (ER) and mitochondria (MITO). All images are cropped into $256\times256$ pixels with manual anntotated masks. In addition, we also used a public dataset NUCLEUS, which can be found from https://bbbc.broadinstitute.org/BBBC038. The three datasets include different morphologies of the intracellular structures (ICSs).
 
-<img src="\images\ER.png" style="zoom:80%;" /><img src="\images\MITO.png" style="zoom:80%;" /><img src="\images\NUCLEUS.png" style="zoom: 80%;" />
+<img src=".\images\ER.png" style="zoom:80%;" /><img src=".\images\MITO.png" style="zoom:80%;" /><img src=".\images\NUCLEUS.png" style="zoom: 80%;" />
 
 (2) Data augmentation: Horizontal and vertical flipping as well as 90°/180°/270° rotation were used to augment the training data.
 
